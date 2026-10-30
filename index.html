@@ -1,0 +1,3474 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <title>WARDRUM</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="max-image-preview:large" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <title>WARDRUM</title>
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="WAR &raquo; Feed"
+      href="/index.php/feed/"
+    />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="WAR &raquo; Comments Feed"
+      href="/index.php/comments/feed/"
+    />
+    <link
+      rel="alternate"
+      title="oEmbed (JSON)"
+      type="application/json+oembed"
+      href="/index.php/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwardrum.fun%2F"
+    />
+    <link
+      rel="alternate"
+      title="oEmbed (XML)"
+      type="text/xml+oembed"
+      href="/index.php/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwardrum.fun%2F&#038;format=xml"
+    />
+    <style id="wp-img-auto-sizes-contain-inline-css">
+      img:is([sizes="auto" i], [sizes^="auto," i]) {
+        contain-intrinsic-size: 3000px 1500px;
+      }
+      /*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+    </style>
+
+    <style id="wp-emoji-styles-inline-css">
+      img.wp-smiley,
+      img.emoji {
+        display: inline !important;
+        border: none !important;
+        box-shadow: none !important;
+        height: 1em !important;
+        width: 1em !important;
+        margin: 0 0.07em !important;
+        vertical-align: -0.1em !important;
+        background: none !important;
+        padding: 0 !important;
+      }
+      /*# sourceURL=wp-emoji-styles-inline-css */
+    </style>
+    <style id="wp-block-library-inline-css">
+      :root {
+        --wp-block-synced-color: #7a00df;
+        --wp-block-synced-color--rgb: 122, 0, 223;
+        --wp-bound-block-color: var(--wp-block-synced-color);
+        --wp-editor-canvas-background: #ddd;
+        --wp-admin-theme-color: #007cba;
+        --wp-admin-theme-color--rgb: 0, 124, 186;
+        --wp-admin-theme-color-darker-10: #006ba1;
+        --wp-admin-theme-color-darker-10--rgb: 0, 107, 160.5;
+        --wp-admin-theme-color-darker-20: #005a87;
+        --wp-admin-theme-color-darker-20--rgb: 0, 90, 135;
+        --wp-admin-border-width-focus: 2px;
+      }
+      @media (min-resolution: 192dpi) {
+        :root {
+          --wp-admin-border-width-focus: 1.5px;
+        }
+      }
+      .wp-element-button {
+        cursor: pointer;
+      }
+      :root .has-very-light-gray-background-color {
+        background-color: #eee;
+      }
+      :root .has-very-dark-gray-background-color {
+        background-color: #313131;
+      }
+      :root .has-very-light-gray-color {
+        color: #eee;
+      }
+      :root .has-very-dark-gray-color {
+        color: #313131;
+      }
+      :root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background {
+        background: linear-gradient(135deg, #00d084, #0693e3);
+      }
+      :root .has-purple-crush-gradient-background {
+        background: linear-gradient(135deg, #34e2e4, #4721fb 50%, #ab1dfe);
+      }
+      :root .has-hazy-dawn-gradient-background {
+        background: linear-gradient(135deg, #faaca8, #dad0ec);
+      }
+      :root .has-subdued-olive-gradient-background {
+        background: linear-gradient(135deg, #fafae1, #67a671);
+      }
+      :root .has-atomic-cream-gradient-background {
+        background: linear-gradient(135deg, #fdd79a, #004a59);
+      }
+      :root .has-nightshade-gradient-background {
+        background: linear-gradient(135deg, #330968, #31cdcf);
+      }
+      :root .has-midnight-gradient-background {
+        background: linear-gradient(135deg, #020381, #2874fc);
+      }
+      :root {
+        --wp--preset--font-size--normal: 16px;
+        --wp--preset--font-size--huge: 42px;
+      }
+      .has-regular-font-size {
+        font-size: 1em;
+      }
+      .has-larger-font-size {
+        font-size: 2.625em;
+      }
+      .has-normal-font-size {
+        font-size: var(--wp--preset--font-size--normal);
+      }
+      .has-huge-font-size {
+        font-size: var(--wp--preset--font-size--huge);
+      }
+      .has-text-align-center {
+        text-align: center;
+      }
+      .has-text-align-left {
+        text-align: left;
+      }
+      .has-text-align-right {
+        text-align: right;
+      }
+      .has-fit-text {
+        white-space: nowrap !important;
+      }
+      #end-resizable-editor-section {
+        display: none;
+      }
+      .aligncenter {
+        clear: both;
+      }
+      .items-justified-left {
+        justify-content: flex-start;
+      }
+      .items-justified-center {
+        justify-content: center;
+      }
+      .items-justified-right {
+        justify-content: flex-end;
+      }
+      .items-justified-space-between {
+        justify-content: space-between;
+      }
+      .screen-reader-text {
+        border: 0;
+        clip-path: inset(50%);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+        word-wrap: normal !important;
+      }
+      .screen-reader-text:focus {
+        background-color: #ddd;
+        clip-path: none;
+        color: #444;
+        display: block;
+        font-size: 1em;
+        height: auto;
+        left: 5px;
+        line-height: normal;
+        padding: 15px 23px 14px;
+        text-decoration: none;
+        top: 5px;
+        width: auto;
+        z-index: 100000;
+      }
+      html :where(.has-border-color) {
+        border-style: solid;
+      }
+      html :where([style*="border-top-color"]) {
+        border-top-style: solid;
+      }
+      html :where([style*="border-right-color"]) {
+        border-right-style: solid;
+      }
+      html :where([style*="border-bottom-color"]) {
+        border-bottom-style: solid;
+      }
+      html :where([style*="border-left-color"]) {
+        border-left-style: solid;
+      }
+      html :where([style*="border-width"]) {
+        border-style: solid;
+      }
+      html :where([style*="border-top-width"]) {
+        border-top-style: solid;
+      }
+      html :where([style*="border-right-width"]) {
+        border-right-style: solid;
+      }
+      html :where([style*="border-bottom-width"]) {
+        border-bottom-style: solid;
+      }
+      html :where([style*="border-left-width"]) {
+        border-left-style: solid;
+      }
+      html :where(img[class*="wp-image-"]) {
+        height: auto;
+        max-width: 100%;
+      }
+      :where(figure) {
+        margin: 0 0 1em;
+      }
+      html :where(.is-position-sticky) {
+        --wp-admin--admin-bar--position-offset: var(
+          --wp-admin--admin-bar--height,
+          0px
+        );
+      }
+      @media screen and (max-width: 600px) {
+        html :where(.is-position-sticky) {
+          --wp-admin--admin-bar--position-offset: 0px;
+        }
+      }
+      /*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+    </style>
+    <style id="global-styles-inline-css">
+      :root {
+        --wp--preset--aspect-ratio--square: 1;
+        --wp--preset--aspect-ratio--4-3: 4/3;
+        --wp--preset--aspect-ratio--3-4: 3/4;
+        --wp--preset--aspect-ratio--3-2: 3/2;
+        --wp--preset--aspect-ratio--2-3: 2/3;
+        --wp--preset--aspect-ratio--16-9: 16/9;
+        --wp--preset--aspect-ratio--9-16: 9/16;
+        --wp--preset--color--black: #000000;
+        --wp--preset--color--cyan-bluish-gray: #abb8c3;
+        --wp--preset--color--white: #ffffff;
+        --wp--preset--color--pale-pink: #f78da7;
+        --wp--preset--color--vivid-red: #cf2e2e;
+        --wp--preset--color--luminous-vivid-orange: #ff6900;
+        --wp--preset--color--luminous-vivid-amber: #fcb900;
+        --wp--preset--color--light-green-cyan: #7bdcb5;
+        --wp--preset--color--vivid-green-cyan: #00d084;
+        --wp--preset--color--pale-cyan-blue: #8ed1fc;
+        --wp--preset--color--vivid-cyan-blue: #0693e3;
+        --wp--preset--color--vivid-purple: #9b51e0;
+        --wp--preset--color--base: #ffffff;
+        --wp--preset--color--contrast: #111111;
+        --wp--preset--color--accent-1: #ffee58;
+        --wp--preset--color--accent-2: #f6cff4;
+        --wp--preset--color--accent-3: #503aa8;
+        --wp--preset--color--accent-4: #686868;
+        --wp--preset--color--accent-5: #fbfaf3;
+        --wp--preset--color--accent-6: color-mix(
+          in srgb,
+          currentColor 20%,
+          transparent
+        );
+        --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(
+          135deg,
+          rgb(6, 147, 227) 0%,
+          rgb(155, 81, 224) 100%
+        );
+        --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(
+          135deg,
+          rgb(122, 220, 180) 0%,
+          rgb(0, 208, 130) 100%
+        );
+        --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(
+          135deg,
+          rgb(252, 185, 0) 0%,
+          rgb(255, 105, 0) 100%
+        );
+        --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(
+          135deg,
+          rgb(255, 105, 0) 0%,
+          rgb(207, 46, 46) 100%
+        );
+        --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(
+          135deg,
+          rgb(238, 238, 238) 0%,
+          rgb(169, 184, 195) 100%
+        );
+        --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(
+          135deg,
+          rgb(74, 234, 220) 0%,
+          rgb(151, 120, 209) 20%,
+          rgb(207, 42, 186) 40%,
+          rgb(238, 44, 130) 60%,
+          rgb(251, 105, 98) 80%,
+          rgb(254, 248, 76) 100%
+        );
+        --wp--preset--gradient--blush-light-purple: linear-gradient(
+          135deg,
+          rgb(255, 206, 236) 0%,
+          rgb(152, 150, 240) 100%
+        );
+        --wp--preset--gradient--blush-bordeaux: linear-gradient(
+          135deg,
+          rgb(254, 205, 165) 0%,
+          rgb(254, 45, 45) 50%,
+          rgb(107, 0, 62) 100%
+        );
+        --wp--preset--gradient--luminous-dusk: linear-gradient(
+          135deg,
+          rgb(255, 203, 112) 0%,
+          rgb(199, 81, 192) 50%,
+          rgb(65, 88, 208) 100%
+        );
+        --wp--preset--gradient--pale-ocean: linear-gradient(
+          135deg,
+          rgb(255, 245, 203) 0%,
+          rgb(182, 227, 212) 50%,
+          rgb(51, 167, 181) 100%
+        );
+        --wp--preset--gradient--electric-grass: linear-gradient(
+          135deg,
+          rgb(202, 248, 128) 0%,
+          rgb(113, 206, 126) 100%
+        );
+        --wp--preset--gradient--midnight: linear-gradient(
+          135deg,
+          rgb(2, 3, 129) 0%,
+          rgb(40, 116, 252) 100%
+        );
+        --wp--preset--font-size--small: 0.875rem;
+        --wp--preset--font-size--medium: clamp(
+          1rem,
+          1rem + ((1vw - 0.2rem) * 0.196),
+          1.125rem
+        );
+        --wp--preset--font-size--large: clamp(
+          1.125rem,
+          1.125rem + ((1vw - 0.2rem) * 0.392),
+          1.375rem
+        );
+        --wp--preset--font-size--x-large: clamp(
+          1.75rem,
+          1.75rem + ((1vw - 0.2rem) * 0.392),
+          2rem
+        );
+        --wp--preset--font-size--xx-large: clamp(
+          2.15rem,
+          2.15rem + ((1vw - 0.2rem) * 1.333),
+          3rem
+        );
+        --wp--preset--font-family--manrope: Manrope, sans-serif;
+        --wp--preset--font-family--fira-code: "Fira Code", monospace;
+        --wp--preset--spacing--20: 10px;
+        --wp--preset--spacing--30: 20px;
+        --wp--preset--spacing--40: 30px;
+        --wp--preset--spacing--50: clamp(30px, 5vw, 50px);
+        --wp--preset--spacing--60: clamp(30px, 7vw, 70px);
+        --wp--preset--spacing--70: clamp(50px, 7vw, 90px);
+        --wp--preset--spacing--80: clamp(70px, 10vw, 140px);
+        --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+        --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255),
+          6px 6px rgb(0, 0, 0);
+        --wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);
+      }
+      :root {
+        --wp--style--global--content-size: 645px;
+        --wp--style--global--wide-size: 1340px;
+      }
+      :where(body) {
+        margin: 0;
+      }
+      .wp-site-blocks {
+        padding-top: var(--wp--style--root--padding-top);
+        padding-bottom: var(--wp--style--root--padding-bottom);
+      }
+      .has-global-padding {
+        padding-right: var(--wp--style--root--padding-right);
+        padding-left: var(--wp--style--root--padding-left);
+      }
+      .has-global-padding > .alignfull {
+        margin-right: calc(var(--wp--style--root--padding-right) * -1);
+        margin-left: calc(var(--wp--style--root--padding-left) * -1);
+      }
+      .has-global-padding
+        :where(:not(.alignfull.is-layout-flow)
+          > .has-global-padding:not(.wp-block-block, .alignfull)) {
+        padding-right: 0;
+        padding-left: 0;
+      }
+      .has-global-padding
+        :where(:not(.alignfull.is-layout-flow)
+          > .has-global-padding:not(.wp-block-block, .alignfull))
+        > .alignfull {
+        margin-left: 0;
+        margin-right: 0;
+      }
+      .wp-site-blocks > .alignleft {
+        float: left;
+        margin-right: 2em;
+      }
+      .wp-site-blocks > .alignright {
+        float: right;
+        margin-left: 2em;
+      }
+      .wp-site-blocks > .aligncenter {
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      :where(.wp-site-blocks) > * {
+        margin-block-start: 1.2rem;
+        margin-block-end: 0;
+      }
+      :where(.wp-site-blocks) > :first-child {
+        margin-block-start: 0;
+      }
+      :where(.wp-site-blocks) > :last-child {
+        margin-block-end: 0;
+      }
+      :root {
+        --wp--style--block-gap: 1.2rem;
+      }
+      :root :where(.is-layout-flow) > :first-child {
+        margin-block-start: 0;
+      }
+      :root :where(.is-layout-flow) > :last-child {
+        margin-block-end: 0;
+      }
+      :root :where(.is-layout-flow) > * {
+        margin-block-start: 1.2rem;
+        margin-block-end: 0;
+      }
+      :root :where(.is-layout-constrained) > :first-child {
+        margin-block-start: 0;
+      }
+      :root :where(.is-layout-constrained) > :last-child {
+        margin-block-end: 0;
+      }
+      :root :where(.is-layout-constrained) > * {
+        margin-block-start: 1.2rem;
+        margin-block-end: 0;
+      }
+      :root :where(.is-layout-flex) {
+        gap: 1.2rem;
+      }
+      :root :where(.is-layout-grid) {
+        gap: 1.2rem;
+      }
+      .is-layout-flow > .alignleft {
+        float: left;
+        margin-inline-start: 0;
+        margin-inline-end: 2em;
+      }
+      .is-layout-flow > .alignright {
+        float: right;
+        margin-inline-start: 2em;
+        margin-inline-end: 0;
+      }
+      .is-layout-flow > .aligncenter {
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+      .is-layout-constrained > .alignleft {
+        float: left;
+        margin-inline-start: 0;
+        margin-inline-end: 2em;
+      }
+      .is-layout-constrained > .alignright {
+        float: right;
+        margin-inline-start: 2em;
+        margin-inline-end: 0;
+      }
+      .is-layout-constrained > .aligncenter {
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+      .is-layout-constrained
+        > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+        max-width: var(--wp--style--global--content-size);
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+      .is-layout-constrained > .alignwide {
+        max-width: var(--wp--style--global--wide-size);
+      }
+      body .is-layout-flex {
+        display: flex;
+      }
+      .is-layout-flex {
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      .is-layout-flex > :is(*, div) {
+        margin: 0;
+      }
+      body .is-layout-grid {
+        display: grid;
+      }
+      .is-layout-grid > :is(*, div) {
+        margin: 0;
+      }
+      body {
+        background-color: var(--wp--preset--color--base);
+        color: var(--wp--preset--color--contrast);
+        font-family: var(--wp--preset--font-family--manrope);
+        font-size: var(--wp--preset--font-size--large);
+        font-weight: 300;
+        letter-spacing: -0.1px;
+        line-height: 1.4;
+        --wp--style--root--padding-top: 0px;
+        --wp--style--root--padding-right: var(--wp--preset--spacing--50);
+        --wp--style--root--padding-bottom: 0px;
+        --wp--style--root--padding-left: var(--wp--preset--spacing--50);
+      }
+      a:where(:not(.wp-element-button)) {
+        color: currentColor;
+        text-decoration: underline;
+      }
+      :root :where(a:where(:not(.wp-element-button)):hover) {
+        text-decoration: none;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-weight: 400;
+        letter-spacing: -0.1px;
+        line-height: 1.125;
+      }
+      h1 {
+        font-size: var(--wp--preset--font-size--xx-large);
+      }
+      h2 {
+        font-size: var(--wp--preset--font-size--x-large);
+      }
+      h3 {
+        font-size: var(--wp--preset--font-size--large);
+      }
+      h4 {
+        font-size: var(--wp--preset--font-size--medium);
+      }
+      h5 {
+        font-size: var(--wp--preset--font-size--small);
+        letter-spacing: 0.5px;
+      }
+      h6 {
+        font-size: var(--wp--preset--font-size--small);
+        font-weight: 700;
+        letter-spacing: 1.4px;
+        text-transform: uppercase;
+      }
+      :root :where(.wp-element-button, .wp-block-button__link) {
+        background-color: var(--wp--preset--color--contrast);
+        border-width: 0;
+        color: var(--wp--preset--color--base);
+        font-family: inherit;
+        font-size: var(--wp--preset--font-size--medium);
+        font-style: inherit;
+        font-weight: inherit;
+        letter-spacing: inherit;
+        line-height: inherit;
+        padding-top: 1rem;
+        padding-right: 2.25rem;
+        padding-bottom: 1rem;
+        padding-left: 2.25rem;
+        text-decoration: none;
+        text-transform: inherit;
+      }
+      :root :where(.wp-element-button:hover, .wp-block-button__link:hover) {
+        background-color: color-mix(
+          in srgb,
+          var(--wp--preset--color--contrast) 85%,
+          transparent
+        );
+        border-color: transparent;
+        color: var(--wp--preset--color--base);
+      }
+      :root :where(.wp-element-button:focus, .wp-block-button__link:focus) {
+        outline-color: var(--wp--preset--color--accent-4);
+        outline-offset: 2px;
+      }
+      :root
+        :where(.wp-element-caption, .wp-block-audio figcaption, .wp-block-embed
+          figcaption, .wp-block-gallery figcaption, .wp-block-image
+          figcaption, .wp-block-table figcaption, .wp-block-video figcaption) {
+        font-size: var(--wp--preset--font-size--small);
+        line-height: 1.4;
+      }
+      .has-black-color {
+        color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-color {
+        color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-color {
+        color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-color {
+        color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-color {
+        color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-color {
+        color: var(--wp--preset--color--luminous-vivid-orange) !important;
+      }
+      .has-luminous-vivid-amber-color {
+        color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+      .has-light-green-cyan-color {
+        color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-color {
+        color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-color {
+        color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-color {
+        color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-color {
+        color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-base-color {
+        color: var(--wp--preset--color--base) !important;
+      }
+      .has-contrast-color {
+        color: var(--wp--preset--color--contrast) !important;
+      }
+      .has-accent-1-color {
+        color: var(--wp--preset--color--accent-1) !important;
+      }
+      .has-accent-2-color {
+        color: var(--wp--preset--color--accent-2) !important;
+      }
+      .has-accent-3-color {
+        color: var(--wp--preset--color--accent-3) !important;
+      }
+      .has-accent-4-color {
+        color: var(--wp--preset--color--accent-4) !important;
+      }
+      .has-accent-5-color {
+        color: var(--wp--preset--color--accent-5) !important;
+      }
+      .has-accent-6-color {
+        color: var(--wp--preset--color--accent-6) !important;
+      }
+      .has-black-background-color {
+        background-color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-background-color {
+        background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-background-color {
+        background-color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-background-color {
+        background-color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-background-color {
+        background-color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-background-color {
+        background-color: var(
+          --wp--preset--color--luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-amber-background-color {
+        background-color: var(
+          --wp--preset--color--luminous-vivid-amber
+        ) !important;
+      }
+      .has-light-green-cyan-background-color {
+        background-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-background-color {
+        background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-background-color {
+        background-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-base-background-color {
+        background-color: var(--wp--preset--color--base) !important;
+      }
+      .has-contrast-background-color {
+        background-color: var(--wp--preset--color--contrast) !important;
+      }
+      .has-accent-1-background-color {
+        background-color: var(--wp--preset--color--accent-1) !important;
+      }
+      .has-accent-2-background-color {
+        background-color: var(--wp--preset--color--accent-2) !important;
+      }
+      .has-accent-3-background-color {
+        background-color: var(--wp--preset--color--accent-3) !important;
+      }
+      .has-accent-4-background-color {
+        background-color: var(--wp--preset--color--accent-4) !important;
+      }
+      .has-accent-5-background-color {
+        background-color: var(--wp--preset--color--accent-5) !important;
+      }
+      .has-accent-6-background-color {
+        background-color: var(--wp--preset--color--accent-6) !important;
+      }
+      .has-black-border-color {
+        border-color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-border-color {
+        border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-border-color {
+        border-color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-border-color {
+        border-color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-border-color {
+        border-color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-border-color {
+        border-color: var(
+          --wp--preset--color--luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-amber-border-color {
+        border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+      .has-light-green-cyan-border-color {
+        border-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-border-color {
+        border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-border-color {
+        border-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-base-border-color {
+        border-color: var(--wp--preset--color--base) !important;
+      }
+      .has-contrast-border-color {
+        border-color: var(--wp--preset--color--contrast) !important;
+      }
+      .has-accent-1-border-color {
+        border-color: var(--wp--preset--color--accent-1) !important;
+      }
+      .has-accent-2-border-color {
+        border-color: var(--wp--preset--color--accent-2) !important;
+      }
+      .has-accent-3-border-color {
+        border-color: var(--wp--preset--color--accent-3) !important;
+      }
+      .has-accent-4-border-color {
+        border-color: var(--wp--preset--color--accent-4) !important;
+      }
+      .has-accent-5-border-color {
+        border-color: var(--wp--preset--color--accent-5) !important;
+      }
+      .has-accent-6-border-color {
+        border-color: var(--wp--preset--color--accent-6) !important;
+      }
+      .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+        background: var(
+          --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple
+        ) !important;
+      }
+      .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+        background: var(
+          --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan
+        ) !important;
+      }
+      .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+        background: var(
+          --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+        background: var(
+          --wp--preset--gradient--luminous-vivid-orange-to-vivid-red
+        ) !important;
+      }
+      .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+        background: var(
+          --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray
+        ) !important;
+      }
+      .has-cool-to-warm-spectrum-gradient-background {
+        background: var(
+          --wp--preset--gradient--cool-to-warm-spectrum
+        ) !important;
+      }
+      .has-blush-light-purple-gradient-background {
+        background: var(--wp--preset--gradient--blush-light-purple) !important;
+      }
+      .has-blush-bordeaux-gradient-background {
+        background: var(--wp--preset--gradient--blush-bordeaux) !important;
+      }
+      .has-luminous-dusk-gradient-background {
+        background: var(--wp--preset--gradient--luminous-dusk) !important;
+      }
+      .has-pale-ocean-gradient-background {
+        background: var(--wp--preset--gradient--pale-ocean) !important;
+      }
+      .has-electric-grass-gradient-background {
+        background: var(--wp--preset--gradient--electric-grass) !important;
+      }
+      .has-midnight-gradient-background {
+        background: var(--wp--preset--gradient--midnight) !important;
+      }
+      .has-small-font-size {
+        font-size: var(--wp--preset--font-size--small) !important;
+      }
+      .has-medium-font-size {
+        font-size: var(--wp--preset--font-size--medium) !important;
+      }
+      .has-large-font-size {
+        font-size: var(--wp--preset--font-size--large) !important;
+      }
+      .has-x-large-font-size {
+        font-size: var(--wp--preset--font-size--x-large) !important;
+      }
+      .has-xx-large-font-size {
+        font-size: var(--wp--preset--font-size--xx-large) !important;
+      }
+      .has-manrope-font-family {
+        font-family: var(--wp--preset--font-family--manrope) !important;
+      }
+      .has-fira-code-font-family {
+        font-family: var(--wp--preset--font-family--fira-code) !important;
+      }
+      /*# sourceURL=global-styles-inline-css */
+    </style>
+    <style id="wp-block-template-skip-link-inline-css">
+      .skip-link.screen-reader-text {
+        border: 0;
+        clip-path: inset(50%);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute !important;
+        width: 1px;
+        word-wrap: normal !important;
+      }
+
+      .skip-link.screen-reader-text:focus {
+        background-color: #eee;
+        clip-path: none;
+        color: #444;
+        display: block;
+        font-size: 1em;
+        height: auto;
+        left: 5px;
+        line-height: normal;
+        padding: 15px 23px 14px;
+        text-decoration: none;
+        top: 5px;
+        width: auto;
+        z-index: 100000;
+      }
+      /*# sourceURL=wp-block-template-skip-link-inline-css */
+    </style>
+    <style id="twentytwentyfive-style-inline-css">
+      a {
+        text-decoration-thickness: 1px !important;
+        text-underline-offset: 0.1em;
+      }
+      :where(.wp-site-blocks :focus) {
+        outline-width: 2px;
+        outline-style: solid;
+      }
+      .wp-block-navigation
+        .wp-block-navigation-submenu
+        .wp-block-navigation-item:not(:last-child) {
+        margin-bottom: 3px;
+      }
+      .wp-block-navigation
+        .wp-block-navigation-item
+        .wp-block-navigation-item__content {
+        outline-offset: 4px;
+      }
+      .wp-block-navigation
+        .wp-block-navigation-item
+        ul.wp-block-navigation__submenu-container
+        .wp-block-navigation-item__content {
+        outline-offset: 0;
+      }
+      blockquote,
+      caption,
+      figcaption,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p {
+        text-wrap: pretty;
+      }
+      .more-link {
+        display: block;
+      }
+      :where(pre) {
+        overflow-x: auto;
+      }
+      /*# sourceURL=/wp-content/themes/twentytwentyfive/style.min.css */
+    </style>
+    <link
+      rel="stylesheet"
+      id="elementor-frontend-css"
+      href="/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.23.4"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="swiper-css"
+      href="/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-post-7-css"
+      href="/wp-content/uploads/elementor/css/post-7.css?ver=1772646697"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-pro-css"
+      href="/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.23.3"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-global-css"
+      href="/wp-content/uploads/elementor/css/global.css?ver=1772646698"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-post-8-css"
+      href="/wp-content/uploads/elementor/css/post-8.css?ver=1772685339"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="google-fonts-1-css"
+      href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.9.1"
+      media="all"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link rel="https://api.w.org/" href="/index.php/wp-json/" />
+    <link
+      rel="alternate"
+      title="JSON"
+      type="application/json"
+      href="/index.php/wp-json/wp/v2/pages/8"
+    />
+    <link
+      rel="EditURI"
+      type="application/rsd+xml"
+      title="RSD"
+      href="/xmlrpc.php?rsd"
+    />
+    <meta name="generator" content="WordPress 6.9.1" />
+    <link rel="canonical" href="/" />
+    <link rel="shortlink" href="/" />
+    <meta
+      name="generator"
+      content="Elementor 3.23.4; features: e_optimized_css_loading, e_font_icon_svg, additional_custom_breakpoints, e_optimized_control_loading, e_lazyload, e_element_cache; settings: css_print_method-external, google_font-enabled, font_display-swap"
+    />
+    <style>
+      .e-con.e-parent:nth-of-type(n + 4):not(.e-lazyloaded):not(.e-no-lazyload),
+      .e-con.e-parent:nth-of-type(n + 4):not(.e-lazyloaded):not(.e-no-lazyload)
+        * {
+        background-image: none !important;
+      }
+      @media screen and (max-height: 1024px) {
+        .e-con.e-parent:nth-of-type(n
+            + 3):not(.e-lazyloaded):not(.e-no-lazyload),
+        .e-con.e-parent:nth-of-type(n
+            + 3):not(.e-lazyloaded):not(.e-no-lazyload)
+          * {
+          background-image: none !important;
+        }
+      }
+      @media screen and (max-height: 640px) {
+        .e-con.e-parent:nth-of-type(n
+            + 2):not(.e-lazyloaded):not(.e-no-lazyload),
+        .e-con.e-parent:nth-of-type(n
+            + 2):not(.e-lazyloaded):not(.e-no-lazyload)
+          * {
+          background-image: none !important;
+        }
+      }
+    </style>
+    <style class="wp-fonts-local">
+      @font-face {
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: 200 800;
+        font-display: fallback;
+        src: url("/wp-content/themes/twentytwentyfive/assets/fonts/manrope/Manrope-VariableFont_wght.woff2")
+          format("woff2");
+      }
+      @font-face {
+        font-family: "Fira Code";
+        font-style: normal;
+        font-weight: 300 700;
+        font-display: fallback;
+        src: url("/wp-content/themes/twentytwentyfive/assets/fonts/fira-code/FiraCode-VariableFont_wght.woff2")
+          format("woff2");
+      }
+    </style>
+    <link
+      rel="icon"
+      href="/wp-content/uploads/2026/03/cropped-ICON-WEB-WARDRUM-v1-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      href="/wp-content/uploads/2026/03/cropped-ICON-WEB-WARDRUM-v1-192x192.png"
+      sizes="192x192"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="/wp-content/uploads/2026/03/cropped-ICON-WEB-WARDRUM-v1-180x180.png"
+    />
+    <meta
+      name="msapplication-TileImage"
+      content="/wp-content/uploads/2026/03/cropped-ICON-WEB-WARDRUM-v1-270x270.png"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+  </head>
+  <body
+    class="home wp-singular page-template page-template-elementor_canvas page page-id-8 wp-embed-responsive wp-theme-twentytwentyfive elementor-default elementor-template-canvas elementor-kit-7 elementor-page elementor-page-8"
+  >
+    <div
+      data-elementor-type="wp-post"
+      data-elementor-id="8"
+      class="elementor elementor-8"
+      data-elementor-post-type="page"
+    >
+      <div
+        class="elementor-element elementor-element-1479c4e e-flex e-con-boxed e-con e-parent"
+        data-id="1479c4e"
+        data-element_type="container"
+        data-settings='{"background_background":"video","background_video_link":"\/wp-content\/uploads\/2026\/03\/VIDEOBG-WARDRUM-1.mp4","background_play_on_mobile":"yes"}'
+      >
+        <div class="e-con-inner">
+          <div class="elementor-background-video-container">
+            <video
+              class="elementor-background-video-hosted elementor-html5-video"
+              autoplay
+              muted
+              playsinline
+              loop
+            ></video>
+          </div>
+          <div
+            class="elementor-element elementor-element-314f824 e-con-full e-flex e-con e-child"
+            data-id="314f824"
+            data-element_type="container"
+          >
+            <div
+              class="elementor-element elementor-element-1253e14 elementor-widget elementor-widget-html"
+              data-id="1253e14"
+              data-element_type="widget"
+              data-widget_type="html.default"
+            >
+              <div class="elementor-widget-container">
+                <style>
+                  @import url("https://fonts.googleapis.com/css2?family=Syncopate:wght@700&family=JetBrains+Mono:wght@400;700&display=swap");
+
+                  .wardrum-nav-header {
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    z-index: 9999;
+                    background: rgba(0, 0, 0, 0.8);
+                    backdrop-filter: blur(10px);
+                    -webkit-backdrop-filter: blur(10px);
+                    border-bottom: 1px solid rgba(255, 0, 0, 0.2);
+                    padding: 0 5%;
+                    box-sizing: border-box;
+                  }
+
+                  .nav-inner {
+                    max-width: 1200px;
+                    margin: 0 auto;
+                    height: 65px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                  }
+
+                  .nav-logo-text {
+                    font-family: "Syncopate", sans-serif;
+                    font-size: 1.1rem;
+                    color: #ffffff !important;
+                    text-decoration: none;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                    flex-shrink: 0;
+                  }
+
+                  .nav-logo-text span {
+                    color: #ff0000;
+                  }
+
+                  .nav-menu {
+                    display: flex;
+                    gap: 20px;
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+                  }
+
+                  .nav-link {
+                    font-family: "JetBrains Mono", monospace;
+                    font-size: 11px;
+                    font-weight: 700;
+                    color: rgba(255, 255, 255, 0.7) !important;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                    transition: 0.3s;
+                  }
+
+                  .nav-link:hover {
+                    color: #ff0000 !important;
+                  }
+
+                  /* TAMPILAN MOBILE SUPER SIMPEL */
+                  @media (max-width: 768px) {
+                    .nav-inner {
+                      height: 55px; /* Lebih ramping di mobile */
+                    }
+
+                    .nav-logo-text {
+                      font-size: 0.9rem; /* Logo mengecil proporsional */
+                    }
+
+                    .nav-menu {
+                      gap: 12px; /* Jarak menu lebih rapat agar pas di layar */
+                    }
+
+                    .nav-link {
+                      font-size: 9px; /* Tulisan menu mengecil agar tidak lari ke bawah */
+                      letter-spacing: 0.5px;
+                    }
+
+                    /* Hilangkan menu yang kurang krusial di mobile jika layar terlalu sempit (opsional) */
+                    /* .mobile-hide { display: none; } */
+                  }
+
+                  /* Handle untuk layar sangat kecil (Ultra Mobile) */
+                  @media (max-width: 380px) {
+                    .nav-menu {
+                      gap: 8px;
+                    }
+                    .nav-link {
+                      font-size: 8px;
+                    }
+                  }
+                </style>
+
+                <header class="wardrum-nav-header">
+                  <div class="nav-inner">
+                    <a href="#" class="nav-logo-text"
+                      >The DRUM of<span> WAR</span>
+                    </a>
+
+                    <nav class="nav-container">
+                      <ul class="nav-menu">
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li>
+                          <a href="#tokenomics" class="nav-link">Token</a>
+                        </li>
+                        <li><a href="#roadmaps" class="nav-link">Map</a></li>
+                        <li><a href="#signal" class="nav-link">Signal</a></li>
+                        <li><a href="#join" class="nav-link">Join</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                </header>
+              </div>
+            </div>
+          </div>
+          <div
+            class="elementor-element elementor-element-28cdb72 e-con-full e-flex e-con e-child"
+            data-id="28cdb72"
+            data-element_type="container"
+          >
+            <div
+              class="elementor-element elementor-element-bfbc468 elementor-widget elementor-widget-html"
+              data-id="bfbc468"
+              data-element_type="widget"
+              data-widget_type="html.default"
+            >
+              <div class="elementor-widget-container">
+                <style>
+                  /* 1. CLEANUP & INTEGRATION */
+                  @import url("https://fonts.googleapis.com/css2?family=Syncopate:wght@700&family=Space+Grotesk:wght@300;500;700&family=JetBrains+Mono:wght@400&display=swap");
+
+                  .wardrum-wrapper {
+                    position: relative;
+                    width: 100%;
+                    min-height: 650px;
+                    overflow: hidden;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    background: transparent !important; /* Latar belakang transparan */
+                    color: #fff;
+                    padding: 60px 20px;
+                    box-sizing: border-box;
+                  }
+
+                  /* Background Grid Efek Radar - Disesuaikan untuk BG Transparan */
+                  .wardrum-grid {
+                    position: absolute;
+                    inset: 0;
+                    background-image: linear-gradient(
+                        rgba(255, 0, 0, 0.08) 1px,
+                        transparent 1px
+                      ),
+                      linear-gradient(
+                        90deg,
+                        rgba(255, 0, 0, 0.08) 1px,
+                        transparent 1px
+                      );
+                    background-size: 60px 60px;
+                    z-index: 1;
+                    pointer-events: none;
+                    mask-image: radial-gradient(
+                      circle,
+                      black 30%,
+                      transparent 80%
+                    ); /* Haluskan pinggiran grid */
+                    -webkit-mask-image: radial-gradient(
+                      circle,
+                      black 30%,
+                      transparent 80%
+                    );
+                  }
+
+                  .wardrum-ui {
+                    position: relative;
+                    z-index: 10;
+                    text-align: center;
+                    width: 100%;
+                    max-width: 900px;
+                    animation: slideUp 1s cubic-bezier(0.16, 1, 0.3, 1);
+                  }
+
+                  @keyframes slideUp {
+                    from {
+                      opacity: 0;
+                      transform: translateY(30px);
+                    }
+                    to {
+                      opacity: 1;
+                      transform: translateY(0);
+                    }
+                  }
+
+                  .hud-label {
+                    font-family: "JetBrains Mono", monospace;
+                    color: #ff0000;
+                    font-size: 11px;
+                    letter-spacing: 8px;
+                    text-transform: uppercase;
+                    margin-bottom: 20px;
+                    display: block;
+                    text-shadow: 0 0 12px rgba(255, 0, 0, 0.6);
+                  }
+
+                  .hero-title {
+                    font-family: "Syncopate", sans-serif;
+                    font-size: clamp(2rem, 6vw, 4.5rem);
+                    font-weight: 700;
+                    line-height: 0.95;
+                    margin-bottom: 30px;
+                    text-transform: uppercase;
+                    letter-spacing: -3px;
+                    color: #ffffff;
+                  }
+
+                  .hero-desc {
+                    font-family: "Space Grotesk", sans-serif;
+                    font-size: clamp(1rem, 2vw, 1.25rem);
+                    color: #ffffff;
+                    line-height: 1.6;
+                    margin-bottom: 40px;
+                    max-width: 700px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    opacity: 0.95;
+                  }
+
+                  .hero-desc b {
+                    color: #ff0000;
+                    font-weight: 700;
+                    text-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+                  }
+
+                  .status-bar {
+                    display: flex;
+                    justify-content: center;
+                    gap: 30px;
+                    margin-bottom: 40px;
+                    font-family: "JetBrains Mono", monospace;
+                    font-size: 12px;
+                    letter-spacing: 1px;
+                    color: rgba(255, 255, 255, 0.7);
+                  }
+
+                  .status-bar b {
+                    color: #ff0000;
+                  }
+
+                  .ca-container {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 25px;
+                  }
+
+                  .ca-box {
+                    border: 1px solid rgba(255, 255, 255, 0.2);
+                    background: rgba(
+                      255,
+                      255,
+                      255,
+                      0.05
+                    ); /* Sedikit lebih terlihat untuk bg transparan */
+                    padding: 6px 6px 6px 25px;
+                    font-family: "JetBrains Mono", monospace;
+                    font-size: 13px;
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+                    backdrop-filter: blur(8px);
+                    -webkit-backdrop-filter: blur(8px);
+                    color: #fff;
+                    transition: 0.3s;
+                  }
+
+                  .ca-box:hover {
+                    border-color: #ff0000;
+                    background: rgba(255, 0, 0, 0.08);
+                  }
+
+                  .copy-trigger {
+                    background: #ff0000;
+                    color: #fff;
+                    padding: 12px 20px;
+                    cursor: pointer;
+                    font-weight: bold;
+                    font-size: 10px;
+                    transition: all 0.3s ease;
+                    text-transform: uppercase;
+                    border: none;
+                    font-family: "Syncopate", sans-serif;
+                  }
+
+                  .copy-trigger:hover {
+                    background: #ffffff;
+                    color: #ff0000;
+                  }
+
+                  .btn-action {
+                    background: #ff0000;
+                    color: #fff;
+                    padding: 20px 50px;
+                    font-family: "Syncopate", sans-serif;
+                    text-decoration: none;
+                    font-size: 1.1rem;
+                    font-weight: 700;
+                    transition: 0.3s;
+                    clip-path: polygon(10% 0, 100% 0, 90% 100%, 0% 100%);
+                    display: inline-block;
+                    box-shadow: 0 10px 20px rgba(255, 0, 0, 0.2);
+                  }
+
+                  .btn-action:hover {
+                    background: #fff;
+                    color: #000;
+                    transform: translateY(-3px);
+                    box-shadow: 0 15px 30px rgba(255, 255, 255, 0.1);
+                  }
+
+                  @media (max-width: 768px) {
+                    .status-bar {
+                      flex-direction: column;
+                      gap: 12px;
+                    }
+                    .hero-title {
+                      letter-spacing: -1px;
+                      margin-bottom: 20px;
+                    }
+                    .ca-box {
+                      font-size: 11px;
+                      width: 100%;
+                      max-width: 320px;
+                      justify-content: space-between;
+                    }
+                    .hero-desc {
+                      font-size: 1rem;
+                      padding: 0 10px;
+                    }
+                  }
+                </style>
+
+                <div class="wardrum-wrapper">
+                  <div class="wardrum-grid"></div>
+
+                  <div class="wardrum-ui">
+                    <span class="hud-label">// SIGNAL STATUS: ACTIVE</span>
+
+                    <h1 class="hero-title">
+                      The Signal Before Global Conflict
+                    </h1>
+
+                    <p class="hero-desc">
+                      Before missiles light the sky. Before armies collide. The
+                      world always hears the same signal:
+                      <b>The Drum of War.</b>
+                    </p>
+
+                    <div class="status-bar">
+                      <div>SYMBOL: <b>$WAR</b></div>
+                      <div>NETWORK: <b>ETHEREUM</b></div>
+                      <div>STRENGTH: <b>MAXIMAL</b></div>
+                    </div>
+
+                    <div class="ca-container">
+                      <div class="ca-box">
+                        <span id="ca-value"
+                          >0x7CfCf7Da1f6EB1ab8a19DA5F585AdAb549A602e5</span
+                        >
+                        <button
+                          class="copy-trigger"
+                          onclick="copyCA()"
+                          id="copy-btn"
+                        >
+                          COPY
+                        </button>
+                      </div>
+
+                      <a
+                        href="https://dexscreener.com/ethereum/0xb4d5a020efbd9232f92858b7de19c1fe4b83c3fc"
+                        class="btn-action"
+                        >VIEW SIGNAL</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <script>
+                  function copyCA() {
+                    const text = document.getElementById("ca-value").innerText;
+                    const btn = document.getElementById("copy-btn");
+
+                    navigator.clipboard.writeText(text).then(() => {
+                      const caBox = document.querySelector(".ca-box");
+                      const originalText = btn.innerText;
+
+                      caBox.style.borderColor = "#ffffff";
+                      btn.innerText = "COPIED";
+                      btn.style.background = "#ffffff";
+                      btn.style.color = "#ff0000";
+
+                      setTimeout(() => {
+                        caBox.style.borderColor = "rgba(255, 255, 255, 0.2)";
+                        btn.innerText = originalText;
+                        btn.style.background = "#ff0000";
+                        btn.style.color = "#fff";
+                      }, 2000);
+                    });
+                  }
+                </script>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="elementor-element elementor-element-066b096 e-flex e-con-boxed e-con e-parent"
+        data-id="066b096"
+        data-element_type="container"
+        data-settings='{"background_background":"classic"}'
+      >
+        <div class="e-con-inner">
+          <div
+            class="elementor-element elementor-element-8764fd5 e-con-full e-flex e-con e-child"
+            data-id="8764fd5"
+            data-element_type="container"
+            id="about"
+          >
+            <div
+              class="elementor-element elementor-element-b19888d elementor-widget elementor-widget-html"
+              data-id="b19888d"
+              data-element_type="widget"
+              data-widget_type="html.default"
+            >
+              <div class="elementor-widget-container">
+                <style>
+                  @import url("https://fonts.googleapis.com/css2?family=Syncopate:wght@700&family=Space+Grotesk:wght@300;500;700&family=JetBrains+Mono:wght@400;700&display=swap");
+
+                  .theatre-wrapper {
+                    position: relative;
+                    width: 100%;
+                    min-height: 100vh;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 80px 5%;
+                    box-sizing: border-box;
+                    overflow: hidden;
+                    background: #000; /* Pastikan background gelap agar elemen menyala */
+                  }
+
+                  .theatre-content {
+                    width: 100%;
+                    max-width: 1200px;
+                    display: grid;
+                    grid-template-columns: 1.2fr 0.8fr;
+                    gap: 60px;
+                    align-items: center;
+                    z-index: 10;
+                  }
+
+                  .theatre-label {
+                    font-family: "JetBrains Mono", monospace;
+                    color: #ff0000;
+                    font-size: 11px;
+                    letter-spacing: 8px;
+                    text-transform: uppercase;
+                    margin-bottom: 20px;
+                    display: flex;
+                    align-items: center;
+                    gap: 15px;
+                  }
+
+                  .theatre-label::before {
+                    content: "";
+                    width: 10px;
+                    height: 10px;
+                    background: #ff0000;
+                    border-radius: 50%;
+                    box-shadow: 0 0 15px #ff0000;
+                    animation: signalBlink 1.5s infinite;
+                  }
+
+                  @keyframes signalBlink {
+                    0%,
+                    100% {
+                      opacity: 1;
+                      transform: scale(1);
+                    }
+                    50% {
+                      opacity: 0.4;
+                      transform: scale(1.2);
+                    }
+                  }
+
+                  .theatre-title-static {
+                    font-family: "Syncopate", sans-serif;
+                    font-size: clamp(2.2rem, 5vw, 4rem);
+                    color: #ffffff !important;
+                    line-height: 0.9;
+                    margin-bottom: 35px;
+                    text-transform: uppercase;
+                    letter-spacing: -2px;
+                  }
+
+                  .theatre-body {
+                    font-family: "Space Grotesk", sans-serif;
+                    font-size: 1.15rem;
+                    line-height: 1.8;
+                    color: rgba(255, 255, 255, 0.7);
+                  }
+
+                  .theatre-body b {
+                    color: #ffffff;
+                    border-bottom: 1px solid #ff0000;
+                  }
+
+                  .analysis-data-box {
+                    margin: 40px 0;
+                    padding: 20px 30px;
+                    background: rgba(255, 0, 0, 0.05);
+                    border-left: 4px solid #ff0000;
+                    font-family: "JetBrains Mono", monospace;
+                    font-size: 14px;
+                    color: #ff0000;
+                    font-weight: bold;
+                    letter-spacing: 1px;
+                  }
+
+                  /* --- RADAR VISUAL --- */
+                  .theatre-visual-hub {
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                    padding: 40px 0;
+                  }
+
+                  .radar-circle-tactical {
+                    width: clamp(280px, 80vw, 420px);
+                    height: clamp(280px, 80vw, 420px);
+                    border: 2px solid rgba(255, 0, 0, 0.5);
+                    border-radius: 50%;
+                    position: relative;
+                    background: radial-gradient(
+                      circle,
+                      rgba(255, 0, 0, 0.1) 0%,
+                      transparent 80%
+                    );
+                    box-shadow: 0 0 40px rgba(255, 0, 0, 0.2);
+                    overflow: hidden; /* Supaya sweep tidak keluar lingkaran */
+                  }
+
+                  .radar-circle-tactical::before {
+                    content: "";
+                    position: absolute;
+                    top: 15%;
+                    left: 15%;
+                    right: 15%;
+                    bottom: 15%;
+                    border: 1px solid rgba(255, 0, 0, 0.3);
+                    border-radius: 50%;
+                    pointer-events: none;
+                  }
+
+                  .radar-sweep-tactical {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    background: conic-gradient(
+                      from 0deg,
+                      rgba(255, 0, 0, 0.4) 0%,
+                      transparent 40%
+                    );
+                    top: 0;
+                    left: 0;
+                    animation: sweepTactical 3s linear infinite;
+                    z-index: 1;
+                  }
+
+                  @keyframes sweepTactical {
+                    from {
+                      transform: rotate(0deg);
+                    }
+                    to {
+                      transform: rotate(360deg);
+                    }
+                  }
+
+                  .intel-tactical-box {
+                    position: absolute;
+                    background: #000;
+                    border: 1px solid #ff0000;
+                    padding: 10px 14px;
+                    font-family: "JetBrains Mono", monospace;
+                    font-size: 10px;
+                    color: #fff;
+                    z-index: 10;
+                    white-space: nowrap;
+                  }
+
+                  .intel-tactical-box span {
+                    animation: blinkRed 0.8s infinite;
+                    color: #ff0000;
+                  }
+
+                  @keyframes blinkRed {
+                    0%,
+                    100% {
+                      opacity: 1;
+                    }
+                    50% {
+                      opacity: 0;
+                    }
+                  }
+
+                  .pos-north {
+                    top: 0;
+                    right: -10px;
+                  }
+                  .pos-south {
+                    bottom: 0;
+                    left: -10px;
+                  }
+
+                  /* --- RESPONSIVE --- */
+                  @media (max-width: 1024px) {
+                    .theatre-content {
+                      grid-template-columns: 1fr;
+                      text-align: center;
+                    }
+                    .theatre-label {
+                      justify-content: center;
+                    }
+                    .pos-north {
+                      right: 0;
+                    }
+                    .pos-south {
+                      left: 0;
+                    }
+                  }
+                </style>
+
+                <section class="theatre-wrapper">
+                  <div class="theatre-content">
+                    <div class="theatre-info-side">
+                      <span class="theatre-label"
+                        >DEPL-04 // MIDDLE EAST SECTOR</span
+                      >
+                      <h2 class="theatre-title-static">The War Theatre</h2>
+
+                      <div class="theatre-body">
+                        <p>
+                          Across the deserts of the Middle East, tension has
+                          been building for years.
+                          <b>Borders are lines drawn in sand.</b> Alliances
+                          shift like the desert wind.
+                        </p>
+
+                        <div class="analysis-data-box">
+                          [ ANALYSIS_MODE: ACTIVE ]<br />
+                          > EVERY MOVEMENT MATTERS.<br />
+                          > EVERY SIGNAL IS WATCHED.
+                        </div>
+
+                        <p>
+                          Because in this region, history has shown one truth
+                          again and again:
+                          <b
+                            >When the drums begin to echo… conflict is never far
+                            behind.</b
+                          >
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="theatre-visual-hub">
+                      <div class="radar-circle-tactical">
+                        <div class="radar-sweep-tactical"></div>
+
+                        <div
+                          style="
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            z-index: 5;
+                          "
+                        >
+                          <svg
+                            width="40"
+                            height="40"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="#ff0000"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path
+                              d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"
+                            ></path>
+                          </svg>
+                        </div>
+                      </div>
+
+                      <div class="intel-tactical-box pos-north">
+                        <span>●</span> MISSILES: DETECTED<br />
+                        <span>●</span> STATUS: UNSTABLE
+                      </div>
+
+                      <div class="intel-tactical-box pos-south">
+                        <span>●</span> ECHO_DRUM: ACTIVE<br />
+                        <span>●</span> ALERT: MAX
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="elementor-element elementor-element-794cab3 e-flex e-con-boxed e-con e-parent"
+        data-id="794cab3"
+        data-element_type="container"
+        data-settings='{"background_background":"classic"}'
+      >
+        <div class="e-con-inner">
+          <div
+            class="elementor-element elementor-element-aaaa525 e-con-full e-flex e-con e-child"
+            data-id="aaaa525"
+            data-element_type="container"
+            id="tokenomics"
+          >
+            <div
+              class="elementor-element elementor-element-f60e118 elementor-widget elementor-widget-html"
+              data-id="f60e118"
+              data-element_type="widget"
+              data-widget_type="html.default"
+            >
+              <div class="elementor-widget-container">
+                <style>
+                  @import url("https://fonts.googleapis.com/css2?family=Syncopate:wght@700&family=Space+Grotesk:wght@300;500;700&family=JetBrains+Mono:wght@400;700&display=swap");
+
+                  .tokenomics-wrapper {
+                    position: relative;
+                    width: 100%;
+                    padding: 80px 5%;
+                    box-sizing: border-box;
+                    background: transparent;
+                    color: #fff;
+                    overflow: hidden;
+                  }
+
+                  .tokenomics-header {
+                    text-align: center;
+                    max-width: 800px;
+                    margin: 0 auto 60px;
+                  }
+
+                  .tokenomics-label {
+                    font-family: "JetBrains Mono", monospace;
+                    color: #ff0000;
+                    font-size: 11px;
+                    letter-spacing: 6px;
+                    text-transform: uppercase;
+                    margin-bottom: 20px;
+                    display: block;
+                    opacity: 0.8;
+                  }
+
+                  .tokenomics-title {
+                    font-family: "Syncopate", sans-serif;
+                    font-size: clamp(2rem, 5vw, 3.5rem);
+                    text-transform: uppercase;
+                    margin-bottom: 25px;
+                    letter-spacing: -1px;
+                    line-height: 1;
+                  }
+
+                  .tokenomics-intro {
+                    font-family: "Space Grotesk", sans-serif;
+                    font-size: 1.1rem;
+                    line-height: 1.6;
+                    color: rgba(255, 255, 255, 0.6);
+                    max-width: 650px;
+                    margin: 0 auto;
+                  }
+
+                  /* GRID SISTEM OPTIMIZED */
+                  .tokenomics-grid {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+                    gap: 20px;
+                    max-width: 1200px;
+                    margin: 0 auto;
+                  }
+
+                  .token-card {
+                    background: rgba(255, 255, 255, 0.03);
+                    border: 1px solid rgba(255, 255, 255, 0.1);
+                    padding: 30px;
+                    position: relative;
+                    transition: all 0.3s ease;
+                    backdrop-filter: blur(10px);
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                  }
+
+                  .token-card::before {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 3px;
+                    height: 0;
+                    background: #ff0000;
+                    transition: 0.4s ease;
+                  }
+
+                  .token-card:hover {
+                    background: rgba(255, 0, 0, 0.05);
+                    border-color: rgba(255, 0, 0, 0.4);
+                    transform: translateY(-5px);
+                  }
+
+                  .token-card:hover::before {
+                    height: 100%;
+                  }
+
+                  .card-id {
+                    font-family: "JetBrains Mono", monospace;
+                    color: #ff0000;
+                    font-size: 10px;
+                    margin-bottom: 20px;
+                    display: block;
+                    letter-spacing: 2px;
+                  }
+
+                  .card-label {
+                    font-family: "JetBrains Mono", monospace;
+                    font-size: 11px;
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                    margin-bottom: 8px;
+                    color: rgba(255, 255, 255, 0.4);
+                  }
+
+                  .card-value {
+                    font-family: "Syncopate", sans-serif;
+                    font-size: 1.3rem;
+                    color: #fff;
+                    margin-bottom: 15px;
+                    line-height: 1.2;
+                  }
+
+                  .card-desc {
+                    font-family: "Space Grotesk", sans-serif;
+                    font-size: 0.9rem;
+                    line-height: 1.5;
+                    color: rgba(255, 255, 255, 0.5);
+                  }
+
+                  /* CONTRACT ADDRESS STYLING - ANTI OVERFLOW */
+                  .ca-section {
+                    grid-column: 1 / -1;
+                    margin-top: 20px;
+                    background: rgba(255, 0, 0, 0.02);
+                    border: 1px solid rgba(255, 0, 0, 0.2);
+                    padding: 40px 20px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 20px;
+                    text-align: center;
+                    width: 100%;
+                    box-sizing: border-box;
+                  }
+
+                  .ca-display-box {
+                    display: flex;
+                    align-items: center;
+                    background: rgba(0, 0, 0, 0.5);
+                    border: 1px solid rgba(255, 255, 255, 0.1);
+                    padding: 8px 8px 8px 20px;
+                    gap: 15px;
+                    width: 100%;
+                    max-width: 650px;
+                    box-sizing: border-box;
+                    transition: 0.3s;
+                    justify-content: space-between; /* Membuat tombol ke kanan */
+                  }
+
+                  .ca-value-text {
+                    font-family: "JetBrains Mono", monospace;
+                    font-size: clamp(10px, 3vw, 14px);
+                    letter-spacing: 0.5px;
+                    color: #fff;
+                    word-break: break-all;
+                    flex-grow: 1;
+                    text-align: left;
+                  }
+
+                  .btn-copy-ca {
+                    background: #ff0000;
+                    color: #fff;
+                    border: none;
+                    padding: 10px 18px;
+                    font-family: "Syncopate", sans-serif;
+                    font-size: 10px;
+                    font-weight: 700;
+                    cursor: pointer;
+                    transition: all 0.3s ease;
+                    flex-shrink: 0;
+                    text-transform: uppercase;
+                  }
+
+                  .btn-copy-ca:hover {
+                    background: #fff;
+                    color: #ff0000;
+                  }
+
+                  .btn-copy-ca:active {
+                    transform: scale(0.95);
+                  }
+
+                  .glitch-red {
+                    color: #ff0000;
+                    font-weight: bold;
+                  }
+
+                  /* RESPONSIVE FIXES */
+                  @media (max-width: 768px) {
+                    .tokenomics-wrapper {
+                      padding: 60px 15px;
+                    }
+                    .tokenomics-title {
+                      font-size: 1.8rem;
+                    }
+
+                    .ca-display-box {
+                      padding: 15px;
+                      gap: 12px;
+                    }
+
+                    /* Tetap satu baris di mobile kecuali layar sangat kecil */
+                    .ca-value-text {
+                      font-size: 10px;
+                    }
+
+                    .btn-copy-ca {
+                      padding: 8px 12px;
+                      font-size: 9px;
+                    }
+                  }
+                </style>
+
+                <section class="tokenomics-wrapper" id="tokenomics">
+                  <div class="tokenomics-header">
+                    <span class="tokenomics-label"
+                      >// STRATEGIC ASSET STRUCTURE</span
+                    >
+                    <h2 class="tokenomics-title">Tokenomics</h2>
+                    <p class="tokenomics-intro">
+                      WAR framework is engineered for transparency and absolute
+                      security as the signal spreads.
+                    </p>
+                  </div>
+
+                  <div class="tokenomics-grid">
+                    <div class="token-card">
+                      <span class="card-id">MTK-01</span>
+                      <div class="card-label">Identification</div>
+                      <div class="card-value">WARDRUM</div>
+                      <div class="card-desc">
+                        Symbol: <span class="glitch-red">$WAR</span>
+                      </div>
+                    </div>
+
+                    <div class="token-card">
+                      <span class="card-id">MTK-02</span>
+                      <div class="card-label">Network</div>
+                      <div class="card-value">ETHEREUM</div>
+                      <div class="card-desc">
+                        Battle-ready scalability and speed.
+                      </div>
+                    </div>
+
+                    <div class="token-card">
+                      <span class="card-id">MTK-03</span>
+                      <div class="card-label">Total Supply</div>
+                      <div class="card-value">1,000,000,000</div>
+                      <div class="card-desc">
+                        Fixed supply. No new tokens can be created.
+                      </div>
+                    </div>
+
+                    <div class="token-card">
+                      <span class="card-id">MTK-04</span>
+                      <div class="card-label">Transaction Tax</div>
+                      <div class="card-value">0%</div>
+                      <div class="card-desc">
+                        Zero friction on entry and exit maneuvers.
+                      </div>
+                    </div>
+
+                    <div class="token-card">
+                      <span class="card-id">MTK-05</span>
+                      <div class="card-label">Liquidity</div>
+                      <div class="card-value">LP BURNED</div>
+                      <div class="card-desc">
+                        Keys destroyed. The drum beats forever.
+                      </div>
+                    </div>
+
+                    <div class="token-card">
+                      <span class="card-id">MTK-06</span>
+                      <div class="card-label">Mechanics</div>
+                      <div class="card-value">RENOUNCED</div>
+                      <div class="card-desc">
+                        Ownership abandoned for total community trust.
+                      </div>
+                    </div>
+
+                    <div class="ca-section">
+                      <div class="card-label">Official Contract Address</div>
+                      <div class="ca-display-box">
+                        <span class="ca-value-text" id="ca-text"
+                          >0x7CfCf7Da1f6EB1ab8a19DA5F585AdAb549A602e5</span
+                        >
+                        <button class="btn-copy-ca" onclick="copyCA()">
+                          COPY
+                        </button>
+                      </div>
+                      <div class="card-desc" style="font-style: italic">
+                        The signal is verified.
+                        <span class="glitch-red">NOW THE DRUMS ECHO.</span>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+
+                <script>
+                  function copyCA() {
+                    const caText = document.getElementById("ca-text").innerText;
+                    navigator.clipboard.writeText(caText).then(() => {
+                      const btn = document.querySelector(".btn-copy-ca");
+                      const originalText = btn.innerText;
+                      btn.innerText = "COPIED!";
+                      btn.style.background = "#fff";
+                      btn.style.color = "#ff0000";
+
+                      setTimeout(() => {
+                        btn.innerText = originalText;
+                        btn.style.background = "#ff0000";
+                        btn.style.color = "#fff";
+                      }, 2000);
+                    });
+                  }
+                </script>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="elementor-element elementor-element-ffa60b0 e-flex e-con-boxed e-con e-parent"
+        data-id="ffa60b0"
+        data-element_type="container"
+        data-settings='{"background_background":"classic"}'
+      >
+        <div class="e-con-inner">
+          <div
+            class="elementor-element elementor-element-b710831 e-con-full e-flex e-con e-child"
+            data-id="b710831"
+            data-element_type="container"
+            id="roadmaps"
+          >
+            <div
+              class="elementor-element elementor-element-ae77f03 elementor-widget elementor-widget-html"
+              data-id="ae77f03"
+              data-element_type="widget"
+              data-widget_type="html.default"
+            >
+              <div class="elementor-widget-container">
+                <style>
+                  @import url("https://fonts.googleapis.com/css2?family=Syncopate:wght@700&family=Space+Grotesk:wght@300;500;700&family=JetBrains+Mono:wght@400;700&display=swap");
+
+                  .roadmap-wrapper {
+                    position: relative;
+                    width: 100%;
+                    padding: 80px 5%;
+                    box-sizing: border-box;
+                    background: transparent;
+                    color: #fff;
+                    overflow: hidden;
+                  }
+
+                  .roadmap-header {
+                    text-align: center;
+                    max-width: 800px;
+                    margin: 0 auto 60px;
+                  }
+
+                  .roadmap-label {
+                    font-family: "JetBrains Mono", monospace;
+                    color: #ff0000;
+                    font-size: 11px;
+                    letter-spacing: 6px;
+                    text-transform: uppercase;
+                    margin-bottom: 20px;
+                    display: block;
+                    opacity: 0.8;
+                  }
+
+                  .roadmap-title {
+                    font-family: "Syncopate", sans-serif;
+                    font-size: clamp(2rem, 5vw, 3.5rem);
+                    text-transform: uppercase;
+                    margin-bottom: 25px;
+                    line-height: 1.1;
+                  }
+
+                  .roadmap-intro {
+                    font-family: "Space Grotesk", sans-serif;
+                    font-size: 1.1rem;
+                    line-height: 1.6;
+                    color: rgba(255, 255, 255, 0.6);
+                    max-width: 600px;
+                    margin: 0 auto;
+                  }
+
+                  /* TIMELINE STRUCTURE */
+                  .roadmap-container {
+                    position: relative;
+                    max-width: 1100px;
+                    margin: 0 auto;
+                    padding: 20px 0;
+                  }
+
+                  /* Garis Tengah Vertikal (Desktop) */
+                  .roadmap-container::before {
+                    content: "";
+                    position: absolute;
+                    left: 50%;
+                    top: 0;
+                    bottom: 0;
+                    width: 1px;
+                    background: linear-gradient(
+                      to bottom,
+                      transparent,
+                      rgba(255, 0, 0, 0.8) 15%,
+                      rgba(255, 0, 0, 0.8) 85%,
+                      transparent
+                    );
+                    transform: translateX(-50%);
+                  }
+
+                  .roadmap-item {
+                    position: relative;
+                    width: 50%;
+                    padding: 20px 40px;
+                    box-sizing: border-box;
+                    margin-bottom: 30px;
+                  }
+
+                  .roadmap-item.left {
+                    left: 0;
+                    text-align: right;
+                  }
+                  .roadmap-item.right {
+                    left: 50%;
+                    text-align: left;
+                  }
+
+                  /* Titik Indikator */
+                  .roadmap-item::after {
+                    content: "";
+                    position: absolute;
+                    top: 40px;
+                    width: 12px;
+                    height: 12px;
+                    background: #000;
+                    border: 2px solid #ff0000;
+                    border-radius: 50%;
+                    z-index: 10;
+                    transition: 0.3s;
+                  }
+
+                  .roadmap-item.left::after {
+                    right: -7px;
+                  }
+                  .roadmap-item.right::after {
+                    left: -7px;
+                  }
+
+                  .roadmap-item:hover::after {
+                    background: #ff0000;
+                    box-shadow: 0 0 15px #ff0000;
+                    transform: scale(1.4);
+                  }
+
+                  /* CARD CONTENT */
+                  .roadmap-card {
+                    background: rgba(255, 255, 255, 0.02);
+                    border: 1px solid rgba(255, 255, 255, 0.08);
+                    padding: 30px;
+                    backdrop-filter: blur(10px);
+                    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+                  }
+
+                  .roadmap-item:hover .roadmap-card {
+                    border-color: rgba(255, 0, 0, 0.4);
+                    background: rgba(255, 0, 0, 0.04);
+                    transform: translateY(-5px);
+                  }
+
+                  .phase-tag {
+                    font-family: "JetBrains Mono", monospace;
+                    color: #ff0000;
+                    font-size: 11px;
+                    font-weight: bold;
+                    display: block;
+                    margin-bottom: 12px;
+                    letter-spacing: 2px;
+                  }
+
+                  .phase-title {
+                    font-family: "Syncopate", sans-serif;
+                    font-size: clamp(1.1rem, 2vw, 1.5rem);
+                    margin-bottom: 20px;
+                    color: #fff;
+                  }
+
+                  .phase-list {
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
+                    font-family: "Space Grotesk", sans-serif;
+                    font-size: 0.95rem;
+                    color: rgba(255, 255, 255, 0.5);
+                    line-height: 1.6;
+                  }
+
+                  .phase-list li {
+                    margin-bottom: 10px;
+                    display: flex;
+                    align-items: flex-start;
+                    gap: 10px;
+                  }
+
+                  /* Bullet Alignment */
+                  .roadmap-item.right .phase-list li::before {
+                    content: ">";
+                    color: #ff0000;
+                    font-family: "JetBrains Mono";
+                    flex-shrink: 0;
+                  }
+                  .roadmap-item.left .phase-list li {
+                    justify-content: flex-end;
+                  }
+                  .roadmap-item.left .phase-list li::after {
+                    content: "<";
+                    color: #ff0000;
+                    font-family: "JetBrains Mono";
+                    flex-shrink: 0;
+                  }
+
+                  .roadmap-footer {
+                    text-align: center;
+                    margin-top: 60px;
+                    font-family: "Space Grotesk", sans-serif;
+                    font-size: 1.1rem;
+                    color: rgba(255, 255, 255, 0.8);
+                    line-height: 1.5;
+                  }
+
+                  .glitch-red {
+                    color: #ff0000;
+                    font-family: "Syncopate", sans-serif;
+                    font-weight: 700;
+                    text-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+                  }
+
+                  /* MOBILE RESPONSIVE FIXES */
+                  @media (max-width: 768px) {
+                    .roadmap-container::before {
+                      left: 20px;
+                      transform: none;
+                    }
+
+                    .roadmap-item {
+                      width: 100%;
+                      left: 0 !important;
+                      text-align: left !important;
+                      padding: 0 0 40px 50px;
+                    }
+
+                    .roadmap-item::after {
+                      left: 14px !important;
+                      top: 35px;
+                    }
+
+                    .roadmap-item.left .phase-list li {
+                      justify-content: flex-start;
+                    }
+
+                    .roadmap-item.left .phase-list li::after {
+                      content: "";
+                    }
+                    .roadmap-item.left .phase-list li::before {
+                      content: ">";
+                      color: #ff0000;
+                      font-family: "JetBrains Mono";
+                      flex-shrink: 0;
+                    }
+
+                    .roadmap-card {
+                      padding: 25px;
+                    }
+
+                    .roadmap-footer {
+                      font-size: 0.9rem;
+                      padding: 0 10px;
+                    }
+                  }
+                </style>
+
+                <section class="roadmap-wrapper">
+                  <div class="roadmap-header">
+                    <span class="roadmap-label">// OPERATION TIMELINE</span>
+                    <h2 class="roadmap-title">Roadmap</h2>
+                    <p class="roadmap-intro">
+                      WAR strategic sequence. Each phase marks the strengthening
+                      of the global signal.
+                    </p>
+                  </div>
+
+                  <div class="roadmap-container">
+                    <div class="roadmap-item left">
+                      <div class="roadmap-card">
+                        <span class="phase-tag">PHASE 1</span>
+                        <h3 class="phase-title">SIGNAL DETECTED</h3>
+                        <ul class="phase-list">
+                          <li>WAR concept established</li>
+                          <li>Visual identity created</li>
+                          <li>Official website deployed</li>
+                          <li>Community channels activated</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="roadmap-item right">
+                      <div class="roadmap-card">
+                        <span class="phase-tag">PHASE 2</span>
+                        <h3 class="phase-title">ESCALATION</h3>
+                        <ul class="phase-list">
+                          <li>Community expansion</li>
+                          <li>Strategic marketing operations</li>
+                          <li>Listing on major platforms</li>
+                          <li>Global social media presence</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="roadmap-item left">
+                      <div class="roadmap-card">
+                        <span class="phase-tag">PHASE 3</span>
+                        <h3 class="phase-title">GLOBAL ATTENTION</h3>
+                        <ul class="phase-list">
+                          <li>Major ecosystem partnerships</li>
+                          <li>Intense community growth</li>
+                          <li>Increased global exposure</li>
+                          <li>Strategic collaborations</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="roadmap-item right">
+                      <div class="roadmap-card">
+                        <span class="phase-tag">PHASE 4</span>
+                        <h3 class="phase-title">WAR ERA</h3>
+                        <ul class="phase-list">
+                          <li>Full community activation</li>
+                          <li>Ecosystem initiatives</li>
+                          <li>Long-term development</li>
+                          <li>Global signal dominance</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="roadmap-footer">
+                    And when the drum begins to echo across the world…<br /><br />
+                    <span class="glitch-red">EVERYONE LISTENS.</span>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="elementor-element elementor-element-bd66fe4 e-flex e-con-boxed e-con e-parent"
+        data-id="bd66fe4"
+        data-element_type="container"
+        data-settings='{"background_background":"classic"}'
+      >
+        <div class="e-con-inner">
+          <div
+            class="elementor-element elementor-element-08a4535 e-con-full e-flex e-con e-child"
+            data-id="08a4535"
+            data-element_type="container"
+            id="signal"
+          >
+            <div
+              class="elementor-element elementor-element-e232cca elementor-widget elementor-widget-html"
+              data-id="e232cca"
+              data-element_type="widget"
+              data-widget_type="html.default"
+            >
+              <div class="elementor-widget-container">
+                <style>
+                  @import url("https://fonts.googleapis.com/css2?family=Syncopate:wght@700&family=Space+Grotesk:wght@300;500;700&family=JetBrains+Mono:wght@400;700&display=swap");
+
+                  .live-signal-wrapper {
+                    position: relative;
+                    width: 100%;
+                    min-height: 100vh;
+                    padding: 80px 20px;
+                    box-sizing: border-box;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    /* BACKGROUND MENGIKUTI WORDPRESS */
+                    background: transparent !important;
+                  }
+
+                  .signal-header {
+                    text-align: center;
+                    max-width: 900px;
+                    margin-bottom: 50px;
+                    z-index: 5;
+                  }
+
+                  .status-badge {
+                    font-family: "JetBrains Mono", monospace;
+                    color: #ff0000;
+                    font-size: 13px;
+                    letter-spacing: 4px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                    margin-bottom: 20px;
+                    text-transform: uppercase;
+                  }
+
+                  .status-dot {
+                    width: 10px;
+                    height: 10px;
+                    background: #ff0000;
+                    border-radius: 50%;
+                    box-shadow: 0 0 10px #ff0000;
+                    animation: signalPulse 1.5s infinite;
+                  }
+
+                  @keyframes signalPulse {
+                    0%,
+                    100% {
+                      opacity: 1;
+                      transform: scale(1);
+                    }
+                    50% {
+                      opacity: 0.4;
+                      transform: scale(1.3);
+                    }
+                  }
+
+                  /* JUDUL PUTIH SOLID - TANPA ANIMASI */
+                  .signal-title-static {
+                    font-family: "Syncopate", sans-serif;
+                    font-size: clamp(2rem, 5vw, 3.5rem);
+                    line-height: 1.1;
+                    margin-bottom: 25px;
+                    color: #ffffff !important; /* PAKSA PUTIH */
+                    text-transform: uppercase;
+                    letter-spacing: -1px;
+                  }
+
+                  .signal-text {
+                    font-family: "Space Grotesk", sans-serif;
+                    font-size: 1.1rem;
+                    line-height: 1.7;
+                    color: #ffffff; /* Teks deskripsi juga dibuat putih agar terbaca di bg gelap */
+                    opacity: 0.8;
+                  }
+
+                  /* CONTAINER CHART FULL LAYAR */
+                  .chart-container {
+                    position: relative;
+                    width: 100%;
+                    max-width: 1200px;
+                    height: 650px;
+                    background: #131722; /* Warna dasar chart agar tidak silau saat loading */
+                    border: 1px solid rgba(255, 0, 0, 0.4);
+                    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+                    z-index: 5;
+                  }
+
+                  #dexscreener-embed {
+                    position: relative;
+                    width: 100%;
+                    height: 100%;
+                  }
+
+                  #dexscreener-embed iframe {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    top: 0;
+                    left: 0;
+                    border: 0;
+                  }
+
+                  @media (max-width: 768px) {
+                    .chart-container {
+                      height: 500px;
+                    }
+                    .live-signal-wrapper {
+                      padding: 40px 10px;
+                    }
+                  }
+                </style>
+
+                <section class="live-signal-wrapper">
+                  <div class="signal-header">
+                    <div class="status-badge">
+                      <span class="status-dot"></span>
+                      WARDRUM_SIGNAL_LIVE
+                    </div>
+
+                    <h2 class="signal-title-static">Live WAR Signal</h2>
+
+                    <div class="signal-text">
+                      Track the real-time activity of <b>$WAR</b> as the signal
+                      spreads across the market. Watch the chart, follow the
+                      momentum, and witness the movement as it unfolds.
+                    </div>
+                  </div>
+
+                  <div class="chart-container">
+                    <div id="dexscreener-embed">
+                      <iframe
+                        src="https://dexscreener.com/ethereum/0xb4d5a020efbd9232f92858b7de19c1fe4b83c3fc"
+                      ></iframe>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="elementor-element elementor-element-a2e4d2d e-flex e-con-boxed e-con e-parent"
+        data-id="a2e4d2d"
+        data-element_type="container"
+        data-settings='{"background_background":"classic"}'
+      >
+        <div class="e-con-inner">
+          <div
+            class="elementor-element elementor-element-0e4f095 e-con-full e-flex e-con e-child"
+            data-id="0e4f095"
+            data-element_type="container"
+            id="join"
+            data-settings='{"background_background":"classic"}'
+          >
+            <div
+              class="elementor-element elementor-element-1d4cf55 elementor-widget elementor-widget-html"
+              data-id="1d4cf55"
+              data-element_type="widget"
+              data-widget_type="html.default"
+            >
+              <div class="elementor-widget-container">
+                <style>
+                  @import url("https://fonts.googleapis.com/css2?family=Syncopate:wght@700&family=Space+Grotesk:wght@300;500;700&family=JetBrains+Mono:wght@400;700&display=swap");
+
+                  .join-section-wrapper {
+                    position: relative;
+                    width: 100%;
+                    min-height: 80vh;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 120px 20px;
+                    box-sizing: border-box;
+                    background: transparent !important;
+                    overflow: hidden;
+                  }
+
+                  .join-container {
+                    max-width: 1000px;
+                    width: 100%;
+                    text-align: center;
+                    z-index: 10;
+                  }
+
+                  .join-label {
+                    font-family: "JetBrains Mono", monospace;
+                    color: #ff0000;
+                    font-size: 12px;
+                    letter-spacing: 6px;
+                    text-transform: uppercase;
+                    margin-bottom: 25px;
+                    display: block;
+                  }
+
+                  .join-title {
+                    font-family: "Syncopate", sans-serif;
+                    font-size: clamp(2.5rem, 6vw, 4.5rem);
+                    color: #ffffff !important;
+                    line-height: 0.9;
+                    margin-bottom: 40px;
+                    text-transform: uppercase;
+                    letter-spacing: -2px;
+                  }
+
+                  .join-description {
+                    font-family: "Space Grotesk", sans-serif;
+                    font-size: clamp(1.1rem, 1.5vw, 1.3rem);
+                    color: rgba(255, 255, 255, 0.8);
+                    line-height: 1.8;
+                    max-width: 800px;
+                    margin: 0 auto 60px;
+                  }
+
+                  /* --- SOCIAL GRID BOOSTER --- */
+                  .social-grid {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    gap: 25px;
+                    margin-bottom: 60px;
+                  }
+
+                  .social-card {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 40px 20px;
+                    /* Buat Card Lebih Terlihat dengan Border & Background Gelap Solid */
+                    border: 2px solid rgba(255, 0, 0, 0.3);
+                    background: rgba(0, 0, 0, 0.6);
+                    text-decoration: none;
+                    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+                    position: relative;
+                    overflow: hidden;
+                    backdrop-filter: blur(10px);
+                  }
+
+                  /* Efek Hover: Nyala Merah Terang */
+                  .social-card:hover {
+                    border-color: #ff0000;
+                    background: rgba(255, 0, 0, 0.1);
+                    transform: translateY(-10px);
+                    box-shadow: 0 10px 30px rgba(255, 0, 0, 0.3);
+                  }
+
+                  /* Ikon Sosial */
+                  .social-card svg {
+                    fill: #ffffff;
+                    transition: 0.3s;
+                    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.2));
+                  }
+
+                  .social-card:hover svg {
+                    fill: #ff0000;
+                    filter: drop-shadow(0 0 10px #ff0000);
+                    transform: scale(1.1);
+                  }
+
+                  .social-name {
+                    font-family: "JetBrains Mono", monospace;
+                    color: #fff;
+                    font-size: 15px;
+                    font-weight: 700;
+                    letter-spacing: 4px;
+                    text-transform: uppercase;
+                    margin-top: 20px;
+                    transition: 0.3s;
+                  }
+
+                  .social-card:hover .social-name {
+                    color: #ffffff;
+                    text-shadow: 0 0 10px #ff0000;
+                  }
+
+                  /* Tambahan Aksen Sudut (Tactical Look) */
+                  .social-card::before {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 15px;
+                    height: 15px;
+                    border-top: 3px solid #ff0000;
+                    border-left: 3px solid #ff0000;
+                  }
+
+                  .join-footer {
+                    font-family: "JetBrains Mono", monospace;
+                    font-size: 14px;
+                    color: rgba(255, 255, 255, 0.5);
+                    letter-spacing: 2px;
+                  }
+
+                  .join-footer span {
+                    color: #ff0000;
+                    font-weight: bold;
+                  }
+
+                  @media (max-width: 768px) {
+                    .social-grid {
+                      grid-template-columns: 1fr;
+                      gap: 15px;
+                    }
+                    .join-title {
+                      font-size: 2.5rem;
+                    }
+                    .social-card {
+                      padding: 30px;
+                    }
+                  }
+                </style>
+
+                <section class="join-section-wrapper">
+                  <div class="join-container">
+                    <span class="join-label">// ESTABLISHING CONNECTION</span>
+                    <h2 class="join-title">Join The Signal</h2>
+
+                    <div class="join-description">
+                      <p>
+                        Across the battlefield of global markets, signals travel
+                        fast. <b>WAR is more than a symbol.</b> It is a signal
+                        carried by those who recognize the rhythm before the
+                        storm.
+                      </p>
+                      <p>
+                        Connect with the community. Stay aligned with the signal
+                        as it moves across the world.
+                      </p>
+                    </div>
+
+                    <div class="social-grid">
+                      <a
+                        href="https://t.me/drumofwar_world"
+                        target="_blank"
+                        class="social-card"
+                      >
+                        <svg width="40" height="40" viewBox="0 0 24 24">
+                          <path
+                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z"
+                          />
+                        </svg>
+                        <span class="social-name">Telegram</span>
+                      </a>
+
+                      <a
+                        href="https://x.com/drumofwar_world"
+                        target="_blank"
+                        class="social-card"
+                      >
+                        <svg width="34" height="34" viewBox="0 0 24 24">
+                          <path
+                            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231 5.451-6.231zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"
+                          />
+                        </svg>
+                        <span class="social-name">Twitter</span>
+                      </a>
+
+                      <a
+                        href="https://dexscreener.com/ethereum/0xb4d5a020efbd9232f92858b7de19c1fe4b83c3fc"
+                        target="_blank"
+                        class="social-card"
+                      >
+                        <svg width="40" height="40" viewBox="0 0 24 24">
+                          <path
+                            d="M3.5 18.49l6-6.01 4 4L22 6.92l-1.41-1.41-7.09 7.97-4-4L2.09 17.08L3.5 18.49z"
+                          />
+                        </svg>
+                        <span class="social-name">Chart</span>
+                      </a>
+                    </div>
+
+                    <div class="join-footer">
+                      The drum has begun to echo.
+                      <span>NOW THE SIGNAL SPREADS.</span>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="elementor-element elementor-element-c86e0e3 e-flex e-con-boxed e-con e-parent"
+        data-id="c86e0e3"
+        data-element_type="container"
+        data-settings='{"background_background":"classic"}'
+      >
+        <div class="e-con-inner">
+          <div
+            class="elementor-element elementor-element-fafcdbb e-con-full e-flex e-con e-child"
+            data-id="fafcdbb"
+            data-element_type="container"
+          >
+            <div
+              class="elementor-element elementor-element-a4bca51 elementor-widget elementor-widget-html"
+              data-id="a4bca51"
+              data-element_type="widget"
+              data-widget_type="html.default"
+            >
+              <div class="elementor-widget-container">
+                <style>
+                  @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap");
+
+                  .wardrum-footer {
+                    width: 100%;
+                    padding: 40px 20px;
+                    background: transparent !important;
+                    border-top: 1px solid rgba(255, 0, 0, 0.2);
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 15px;
+                    box-sizing: border-box;
+                  }
+
+                  .footer-terminal-text {
+                    font-family: "JetBrains Mono", monospace;
+                    font-size: 11px;
+                    letter-spacing: 2px;
+                    color: rgba(255, 255, 255, 0.4);
+                    text-transform: uppercase;
+                    text-align: center;
+                  }
+
+                  .footer-copyright {
+                    font-family: "JetBrains Mono", monospace;
+                    font-size: 13px;
+                    color: #ffffff;
+                    letter-spacing: 1px;
+                    text-align: center;
+                  }
+
+                  .footer-copyright span {
+                    color: #ff0000;
+                    font-weight: bold;
+                  }
+
+                  .footer-disclaimer {
+                    max-width: 600px;
+                    font-family: "JetBrains Mono", monospace;
+                    font-size: 9px;
+                    line-height: 1.6;
+                    color: rgba(255, 255, 255, 0.3);
+                    text-align: center;
+                    margin-top: 10px;
+                    text-transform: uppercase;
+                  }
+
+                  @media (max-width: 768px) {
+                    .footer-copyright {
+                      font-size: 11px;
+                    }
+                    .footer-terminal-text {
+                      font-size: 9px;
+                    }
+                  }
+                </style>
+
+                <footer class="wardrum-footer">
+                  <div class="footer-terminal-text">
+                    [ SIGNAL_TERMINATED // SECURE_LINE_00 ]
+                  </div>
+
+                  <div class="footer-copyright">
+                    © 2026 <span>$WAR</span>. ALL RIGHTS RESERVED.
+                  </div>
+
+                  <div class="footer-disclaimer">
+                    $WAR IS A MEME COIN WITH NO INTRINSIC VALUE. TRADING
+                    CRYPTOCURRENCY INVOLVES HIGH RISK. ENSURE YOU ARE ALIGNED
+                    WITH THE SIGNAL BEFORE PROCEEDING.
+                  </div>
+                </footer>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="speculationrules">
+      {
+        "prefetch": [
+          {
+            "source": "document",
+            "where": {
+              "and": [
+                { "href_matches": "/*" },
+                {
+                  "not": {
+                    "href_matches": [
+                      "/wp-*.php",
+                      "/wp-admin/*",
+                      "/wp-content/uploads/*",
+                      "/wp-content/*",
+                      "/wp-content/plugins/*",
+                      "/wp-content/themes/twentytwentyfive/*",
+                      "/*\\?(.+)"
+                    ]
+                  }
+                },
+                { "not": { "selector_matches": "a[rel~=\"nofollow\"]" } },
+                {
+                  "not": { "selector_matches": ".no-prefetch, .no-prefetch a" }
+                }
+              ]
+            },
+            "eagerness": "conservative"
+          }
+        ]
+      }
+    </script>
+    <script type="text/javascript">
+      const lazyloadRunObserver = () => {
+        const lazyloadBackgrounds = document.querySelectorAll(
+          `.e-con.e-parent:not(.e-lazyloaded)`
+        );
+        const lazyloadBackgroundObserver = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                let lazyloadBackground = entry.target;
+                if (lazyloadBackground) {
+                  lazyloadBackground.classList.add("e-lazyloaded");
+                }
+                lazyloadBackgroundObserver.unobserve(entry.target);
+              }
+            });
+          },
+          { rootMargin: "200px 0px 200px 0px" }
+        );
+        lazyloadBackgrounds.forEach((lazyloadBackground) => {
+          lazyloadBackgroundObserver.observe(lazyloadBackground);
+        });
+      };
+      const events = ["DOMContentLoaded", "elementor/lazyload/observe"];
+      events.forEach((event) => {
+        document.addEventListener(event, lazyloadRunObserver);
+      });
+    </script>
+    <script id="wp-block-template-skip-link-js-after">
+      (function () {
+        var skipLinkTarget = document.querySelector("main"),
+          sibling,
+          skipLinkTargetID,
+          skipLink;
+
+        // Early exit if a skip-link target can't be located.
+        if (!skipLinkTarget) {
+          return;
+        }
+
+        /*
+         * Get the site wrapper.
+         * The skip-link will be injected in the beginning of it.
+         */
+        sibling = document.querySelector(".wp-site-blocks");
+
+        // Early exit if the root element was not found.
+        if (!sibling) {
+          return;
+        }
+
+        // Get the skip-link target's ID, and generate one if it doesn't exist.
+        skipLinkTargetID = skipLinkTarget.id;
+        if (!skipLinkTargetID) {
+          skipLinkTargetID = "wp--skip-link--target";
+          skipLinkTarget.id = skipLinkTargetID;
+        }
+
+        // Create the skip link.
+        skipLink = document.createElement("a");
+        skipLink.classList.add("skip-link", "screen-reader-text");
+        skipLink.id = "wp-skip-link";
+        skipLink.href = "#" + skipLinkTargetID;
+        skipLink.innerText = "Skip to content";
+
+        // Inject the skip link.
+        sibling.parentElement.insertBefore(skipLink, sibling);
+      })();
+
+      //# sourceURL=wp-block-template-skip-link-js-after
+    </script>
+    <script
+      src="/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.23.3"
+      id="elementor-pro-webpack-runtime-js"
+    ></script>
+    <script
+      src="/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.23.4"
+      id="elementor-webpack-runtime-js"
+    ></script>
+    <script
+      src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+      id="jquery-core-js"
+    ></script>
+    <script
+      src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+      id="jquery-migrate-js"
+    ></script>
+    <script
+      src="/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.23.4"
+      id="elementor-frontend-modules-js"
+    ></script>
+    <script
+      src="/wp-includes/js/dist/hooks.min.js?ver=dd5603f07f9220ed27f1"
+      id="wp-hooks-js"
+    ></script>
+    <script
+      src="/wp-includes/js/dist/i18n.min.js?ver=c26c3dc7bed366793375"
+      id="wp-i18n-js"
+    ></script>
+    <script id="wp-i18n-js-after">
+      wp.i18n.setLocaleData({ "text direction\u0004ltr": ["ltr"] });
+      //# sourceURL=wp-i18n-js-after
+    </script>
+    <script id="elementor-pro-frontend-js-before">
+      var ElementorProFrontendConfig = {
+        ajaxurl: "\/wp-admin\/admin-ajax.php",
+        nonce: "94050d94c7",
+        urls: {
+          assets: "\/wp-content\/plugins\/elementor-pro\/assets\/",
+          rest: "\/index.php\/wp-json\/",
+        },
+        shareButtonsNetworks: {
+          facebook: { title: "Facebook", has_counter: true },
+          twitter: { title: "Twitter" },
+          linkedin: { title: "LinkedIn", has_counter: true },
+          pinterest: { title: "Pinterest", has_counter: true },
+          reddit: { title: "Reddit", has_counter: true },
+          vk: { title: "VK", has_counter: true },
+          odnoklassniki: { title: "OK", has_counter: true },
+          tumblr: { title: "Tumblr" },
+          digg: { title: "Digg" },
+          skype: { title: "Skype" },
+          stumbleupon: { title: "StumbleUpon", has_counter: true },
+          mix: { title: "Mix" },
+          telegram: { title: "Telegram" },
+          pocket: { title: "Pocket", has_counter: true },
+          xing: { title: "XING", has_counter: true },
+          whatsapp: { title: "WhatsApp" },
+          email: { title: "Email" },
+          print: { title: "Print" },
+          "x-twitter": { title: "X" },
+          threads: { title: "Threads" },
+        },
+        facebook_sdk: { lang: "en_US", app_id: "" },
+        lottie: {
+          defaultAnimationUrl:
+            "\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json",
+        },
+      };
+      //# sourceURL=elementor-pro-frontend-js-before
+    </script>
+    <script
+      src="/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.23.3"
+      id="elementor-pro-frontend-js"
+    ></script>
+    <script
+      src="/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2"
+      id="elementor-waypoints-js"
+    ></script>
+    <script
+      src="/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3"
+      id="jquery-ui-core-js"
+    ></script>
+    <script id="elementor-frontend-js-before">
+      var elementorFrontendConfig = {
+        environmentMode: {
+          edit: false,
+          wpPreview: false,
+          isScriptDebug: false,
+        },
+        i18n: {
+          shareOnFacebook: "Share on Facebook",
+          shareOnTwitter: "Share on Twitter",
+          pinIt: "Pin it",
+          download: "Download",
+          downloadImage: "Download image",
+          fullscreen: "Fullscreen",
+          zoom: "Zoom",
+          share: "Share",
+          playVideo: "Play Video",
+          previous: "Previous",
+          next: "Next",
+          close: "Close",
+          a11yCarouselWrapperAriaLabel:
+            "Carousel | Horizontal scrolling: Arrow Left & Right",
+          a11yCarouselPrevSlideMessage: "Previous slide",
+          a11yCarouselNextSlideMessage: "Next slide",
+          a11yCarouselFirstSlideMessage: "This is the first slide",
+          a11yCarouselLastSlideMessage: "This is the last slide",
+          a11yCarouselPaginationBulletMessage: "Go to slide",
+        },
+        is_rtl: false,
+        breakpoints: { xs: 0, sm: 480, md: 768, lg: 1025, xl: 1440, xxl: 1600 },
+        responsive: {
+          breakpoints: {
+            mobile: {
+              label: "Mobile Portrait",
+              value: 767,
+              default_value: 767,
+              direction: "max",
+              is_enabled: true,
+            },
+            mobile_extra: {
+              label: "Mobile Landscape",
+              value: 880,
+              default_value: 880,
+              direction: "max",
+              is_enabled: false,
+            },
+            tablet: {
+              label: "Tablet Portrait",
+              value: 1024,
+              default_value: 1024,
+              direction: "max",
+              is_enabled: true,
+            },
+            tablet_extra: {
+              label: "Tablet Landscape",
+              value: 1200,
+              default_value: 1200,
+              direction: "max",
+              is_enabled: false,
+            },
+            laptop: {
+              label: "Laptop",
+              value: 1366,
+              default_value: 1366,
+              direction: "max",
+              is_enabled: false,
+            },
+            widescreen: {
+              label: "Widescreen",
+              value: 2400,
+              default_value: 2400,
+              direction: "min",
+              is_enabled: false,
+            },
+          },
+        },
+        version: "3.23.4",
+        is_static: false,
+        experimentalFeatures: {
+          e_optimized_css_loading: true,
+          e_font_icon_svg: true,
+          additional_custom_breakpoints: true,
+          container: true,
+          container_grid: true,
+          e_swiper_latest: true,
+          e_nested_atomic_repeaters: true,
+          e_optimized_control_loading: true,
+          e_onboarding: true,
+          theme_builder_v2: true,
+          home_screen: true,
+          editor_v2: true,
+          "ai-layout": true,
+          e_lazyload: true,
+          e_element_cache: true,
+          "link-in-bio": true,
+          "floating-buttons": true,
+          "display-conditions": true,
+          "form-submissions": true,
+          "taxonomy-filter": true,
+          search: true,
+        },
+        urls: {
+          assets: "\/wp-content\/plugins\/elementor\/assets\/",
+          ajaxurl: "\/wp-admin\/admin-ajax.php",
+        },
+        nonces: { floatingButtonsClickTracking: "7892f57b4f" },
+        swiperClass: "swiper",
+        settings: { page: [], editorPreferences: [] },
+        kit: {
+          active_breakpoints: ["viewport_mobile", "viewport_tablet"],
+          global_image_lightbox: "yes",
+          lightbox_enable_counter: "yes",
+          lightbox_enable_fullscreen: "yes",
+          lightbox_enable_zoom: "yes",
+          lightbox_enable_share: "yes",
+          lightbox_title_src: "title",
+          lightbox_description_src: "description",
+        },
+        post: { id: 8, title: "WARDRUM", excerpt: "", featuredImage: false },
+      };
+      //# sourceURL=elementor-frontend-js-before
+    </script>
+    <script
+      src="/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.23.4"
+      id="elementor-frontend-js"
+    ></script>
+    <script
+      src="/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.23.3"
+      id="pro-elements-handlers-js"
+    ></script>
+    <script id="wp-emoji-settings" type="application/json">
+      {
+        "baseUrl": "https://s.w.org/images/core/emoji/17.0.2/72x72/",
+        "ext": ".png",
+        "svgUrl": "https://s.w.org/images/core/emoji/17.0.2/svg/",
+        "svgExt": ".svg",
+        "source": {
+          "concatemoji": "/wp-includes/js/wp-emoji-release.min.js?ver=6.9.1"
+        }
+      }
+    </script>
+    <script type="module">
+      /*! This file is auto-generated */
+      const a = JSON.parse(
+          document.getElementById("wp-emoji-settings").textContent
+        ),
+        o = ((window._wpemojiSettings = a), "wpEmojiSettingsSupports"),
+        s = ["flag", "emoji"];
+      function i(e) {
+        try {
+          var t = { supportTests: e, timestamp: new Date().valueOf() };
+          sessionStorage.setItem(o, JSON.stringify(t));
+        } catch (e) {}
+      }
+      function c(e, t, n) {
+        e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0);
+        t = new Uint32Array(
+          e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+        );
+        e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(n, 0, 0);
+        const a = new Uint32Array(
+          e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+        );
+        return t.every((e, t) => e === a[t]);
+      }
+      function p(e, t) {
+        e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0);
+        var n = e.getImageData(16, 16, 1, 1);
+        for (let e = 0; e < n.data.length; e++) if (0 !== n.data[e]) return !1;
+        return !0;
+      }
+      function u(e, t, n, a) {
+        switch (t) {
+          case "flag":
+            return n(
+              e,
+              "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f",
+              "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f"
+            )
+              ? !1
+              : !n(
+                  e,
+                  "\ud83c\udde8\ud83c\uddf6",
+                  "\ud83c\udde8\u200b\ud83c\uddf6"
+                ) &&
+                  !n(
+                    e,
+                    "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
+                    "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"
+                  );
+          case "emoji":
+            return !a(e, "\ud83e\u1fac8");
+        }
+        return !1;
+      }
+      function f(e, t, n, a) {
+        let r;
+        const o = (r =
+            "undefined" != typeof WorkerGlobalScope &&
+            self instanceof WorkerGlobalScope
+              ? new OffscreenCanvas(300, 150)
+              : document.createElement("canvas")).getContext("2d", {
+            willReadFrequently: !0,
+          }),
+          s = ((o.textBaseline = "top"), (o.font = "600 32px Arial"), {});
+        return (
+          e.forEach((e) => {
+            s[e] = t(o, e, n, a);
+          }),
+          s
+        );
+      }
+      function r(e) {
+        var t = document.createElement("script");
+        (t.src = e), (t.defer = !0), document.head.appendChild(t);
+      }
+      (a.supports = { everything: !0, everythingExceptFlag: !0 }),
+        new Promise((t) => {
+          let n = (function () {
+            try {
+              var e = JSON.parse(sessionStorage.getItem(o));
+              if (
+                "object" == typeof e &&
+                "number" == typeof e.timestamp &&
+                new Date().valueOf() < e.timestamp + 604800 &&
+                "object" == typeof e.supportTests
+              )
+                return e.supportTests;
+            } catch (e) {}
+            return null;
+          })();
+          if (!n) {
+            if (
+              "undefined" != typeof Worker &&
+              "undefined" != typeof OffscreenCanvas &&
+              "undefined" != typeof URL &&
+              URL.createObjectURL &&
+              "undefined" != typeof Blob
+            )
+              try {
+                var e =
+                    "postMessage(" +
+                    f.toString() +
+                    "(" +
+                    [
+                      JSON.stringify(s),
+                      u.toString(),
+                      c.toString(),
+                      p.toString(),
+                    ].join(",") +
+                    "));",
+                  a = new Blob([e], { type: "text/javascript" });
+                const r = new Worker(URL.createObjectURL(a), {
+                  name: "wpTestEmojiSupports",
+                });
+                return void (r.onmessage = (e) => {
+                  i((n = e.data)), r.terminate(), t(n);
+                });
+              } catch (e) {}
+            i((n = f(s, u, c, p)));
+          }
+          t(n);
+        }).then((e) => {
+          for (const n in e)
+            (a.supports[n] = e[n]),
+              (a.supports.everything = a.supports.everything && a.supports[n]),
+              "flag" !== n &&
+                (a.supports.everythingExceptFlag =
+                  a.supports.everythingExceptFlag && a.supports[n]);
+          var t;
+          (a.supports.everythingExceptFlag =
+            a.supports.everythingExceptFlag && !a.supports.flag),
+            a.supports.everything ||
+              ((t = a.source || {}).concatemoji
+                ? r(t.concatemoji)
+                : t.wpemoji && t.twemoji && (r(t.twemoji), r(t.wpemoji)));
+        });
+      //# sourceURL=/wp-includes/js/wp-emoji-loader.min.js
+    </script>
+  </body>
+</html>
+
+<!-- Page supported by LiteSpeed Cache 7.8 on 2026-03-05 04:57:43 -->
