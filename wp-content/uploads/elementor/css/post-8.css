@@ -9,6 +9,13 @@
   --overflow: hidden;
   --background-transition: 0.3s;
   --overlay-opacity: 0.75;
+  position: relative;
+  min-height: 100vh;
+}
+.elementor-8 .elementor-element.elementor-element-1479c4e > .e-con-inner {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
 }
 .elementor-8 .elementor-element.elementor-element-1479c4e::before,
 .elementor-8
@@ -65,7 +72,7 @@
   .elementor-element.elementor-element-066b096
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-image: url("/wp-content/uploads/2026/03/XX1.png");
+  background-image: url("/wp-content/uploads/2026/03/HC-city.jpg");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -148,7 +155,7 @@
   .elementor-element.elementor-element-794cab3
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-image: url("/wp-content/uploads/2026/03/XX3.png");
+  background-image: url("/wp-content/uploads/2026/03/HC-chase.jpg");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -232,7 +239,7 @@
   .elementor-element.elementor-element-ffa60b0
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-image: url("/wp-content/uploads/2026/03/XX3.png");
+  background-image: url("/wp-content/uploads/2026/03/HC-chase.jpg");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -316,7 +323,7 @@
   .elementor-element.elementor-element-bd66fe4
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-image: url("/wp-content/uploads/2026/03/XX2.png");
+  background-image: url("/wp-content/uploads/2026/03/HC-rooftop.jpg");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -400,7 +407,7 @@
   .elementor-element.elementor-element-a2e4d2d
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-image: url("/wp-content/uploads/2026/03/XX4.png");
+  background-image: url("/wp-content/uploads/2026/03/HC-community.jpg");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -490,4 +497,15 @@
 .elementor-8 .elementor-element.elementor-element-fafcdbb {
   --display: flex;
   --background-transition: 0.3s;
+}
+
+/* HYPER CLAUDIA hero banner layer */
+.elementor-8 .elementor-element.elementor-element-1479c4e .hc-hero-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+.elementor-8 .elementor-element.elementor-element-1479c4e > .e-con-inner > .elementor-element {
+  position: relative;
+  z-index: 2;
 }
